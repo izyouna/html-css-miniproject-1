@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  padding: 1.5em 3em;
+  gap: 5em;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 24px;
+  a{
+    text-decoration: none;
+    color: black;
+  }
+}
+
+#menu ul{
+  display: flex;
+  gap: 2em;
+  li{
+    list-style: none;
+    a{
+      text-decoration: none;
+      color: black;
+      font-size: 15px;
+    }
+  }
+}
+
+#cart ul{
+  display: flex;
+  gap: 1em;
+  li{
+    list-style: none;
+    a{
+      text-decoration: none;
+    }
+  }
+}
+
+#cart ul img{
+  width: 1.75em;
+}
