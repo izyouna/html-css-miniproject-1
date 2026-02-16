@@ -16,7 +16,7 @@ nav .nav-container {
   justify-content: space-between; 
 }
 
-#logo {
+.logo {
   font-weight: bold;
   font-size: 24px;
   a{
@@ -25,7 +25,7 @@ nav .nav-container {
   }
 }
 
-#menu ul {
+.menu ul {
   display: flex;
   gap: 2em;
   li{
@@ -38,7 +38,7 @@ nav .nav-container {
   }
 }
 
-#cart ul{
+.cart ul{
   display: flex;
   gap: 1em;
   li{
@@ -49,6 +49,11 @@ nav .nav-container {
   }
 } 
 
-#cart ul img{
+.cart ul img{
   width: 1.75em;
+}
+
+
+.search{
+  width: max-content;
 }
