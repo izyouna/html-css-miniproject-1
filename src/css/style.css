@@ -53,7 +53,6 @@ nav .nav-container {
   width: 1.75em;
 }
 
-
 .search{
   --padding: 14px;
 
@@ -62,7 +61,13 @@ nav .nav-container {
   align-items: center;
   padding: var(--padding);
   border-radius: 28px;
-  background: #f6f6f6;;
+  background: #f6f6f6;
+  transition: box-shadow 4s;
+}
+
+.search:focus-within{
+  box-shadow: 0 0 2px rgba(0,0,0,0.75);
+
 }
 
 .search-input{
@@ -72,4 +77,12 @@ nav .nav-container {
   margin-left: var(--padding);
   outline: none;
   border: none;
+  background: transparent;
+  width: 300px;
+}
+
+.search-input::placeholder,
+.search-icon{
+  color: rgba(0, 0, 0, 0.5);
+
 }
