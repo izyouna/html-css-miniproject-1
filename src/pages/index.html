@@ -14,67 +14,72 @@
 </head>
 
 <body>
-  <div class="hero-container">
-    <nav>
-      <div class="nav-container">
-        <section class="logo">
-          <a href="">Panto</a>
-        </section>
-        <section class="menu">
-          <ul>
-            <li><a href="">Furniture</a></li>
-            <li><a href="">Shop</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-        </section>
-        <section class="cart">
+  <section class="hero-section">
+    <nav class="navbar">
+      <div class="logo">Panto</div>
+      <ul class="nav-links">
+        <li><a href="#">Furniture <i class="fa-solid fa-chevron-down text-small"></i></a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <div class="nav-cart">
           <ul>
             <li><a href=""><img src="../../public/icons/shopping-bag.png" alt=""></a></li>
           </ul>
-        </section>
+        <span class="badge">0</span>
       </div>
     </nav>
 
-    <header>
-      <div class="header-title">
-        <h1>Make Your Interior More <br> Minimalistic & Modern</h1>
-        <small>Turn your room with panto into a lot more minimalist <br> and modern with ease and speed</small>
-      </div>
-      <div class="search">
+    <div class="hero-content">
+      <h1>Make Your Interior More<br>Minimalistic & Modern</h1>
+      <p>Turn your room with panto into a lot more minimalist<br>and modern with ease and speed</p>
+      
+      <div class="search-bar">
         <input class="search-input" type="search" placeholder="Search Furniture">
         <span class="search-icon material-symbols-outlined">search</span>
       </div>
-    </header>
-  </div>
-
- <div class="header-bottom">
-      <section class="header-bottom-title">
-        <h1>Why<br>Choosing Us</h1>
-      </section>
-
-      <section class="header-bottom-link">
-        <section>
-          <h3>Luxury facilities</h3>
-          <p>The advantage of hiring a workspace with us is that givees you comfortable service and all-around
-            facilities.</p>
-          <li><a href="">More Info</a></li>
-        </section>
-
-        <section>
-          <h3>Affordable Price</h3>
-          <p>You can get a workspace of the highst quality at an affordable price and still enjoy the facilities that
-            are oly here.</p>
-          <li><a href="">More Info</a></li>
-        </section>
-
-        <section>
-          <h3>Many Choices</h3>
-          <p>We provide many unique work space choices so that you can choose the workspace to your liking.</p>
-          <li><a href="">More Info</a></li>
-        </section>
-      </section>
     </div>
 
+    <div class="tooltip-dot" style="top: 55%; left: 25%;">
+      <span class="pulse"></span>
+      <div class="tooltip-info">Modern Chair - $120</div>
+    </div>
+    <div class="tooltip-dot" style="top: 65%; left: 55%;">
+      <span class="pulse"></span>
+      <div class="tooltip-info">Minimalist Table - $250</div>
+    </div>
+    <div class="tooltip-dot" style="top: 70%; left: 85%;">
+      <span class="pulse"></span>
+      <div class="tooltip-info">Decor Plant - $45</div>
+    </div>
+  </section>
+
+  <section class="why-choose-us">
+    <div class="section-header-left">
+      <h2>Why<br>Choosing Us</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>Luxury facilities</h3>
+        <p>The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.
+        </p>
+        <a href="#">More Info <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="feature-card">
+        <h3>Affordable Price</h3>
+        <p>You can get a workspace of the highst quality at an affordable price and still enjoy the facilities that are
+          oly here.</p>
+        <a href="#">More Info <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+      <div class="feature-card">
+        <h3>Many Choices</h3>
+        <p>We provide many unique work space choices so that you can choose the workspace to your liking.</p>
+        <a href="#">More Info <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
 </body>
+
 </html>
